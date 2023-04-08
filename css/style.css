@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import '../css/variables.css';
-/* @import '../css/variables-night-mode.css'; - for night mode*/
 .nav-items {
   padding: 0;
   margin: 0;
@@ -40,6 +39,11 @@
 html {
   font-size: 16px;
   color: var(--text-color);
+  -webkit-transition: 500ms color, background-color, border, fill, -webkit-box-shadow;
+  transition: 500ms color, background-color, border, fill, -webkit-box-shadow;
+  -o-transition: 500ms color, background-color, border, box-shadow, fill;
+  transition: 500ms color, background-color, border, box-shadow, fill;
+  transition: 500ms color, background-color, border, box-shadow, fill, -webkit-box-shadow;
 }
 
 html, body {
