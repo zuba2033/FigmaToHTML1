@@ -1,0 +1,9 @@
+:root {
+    --main-color: #000000;
+    --text-color: #ffffff;
+    --box-shadow-color: rgba(255, 255, 255, 0.75);
+    --search-bg-color: #000000;
+    --main-border-color: #ffffff;
+    --preview-border-color: rgba(255, 255, 255, 0.7);
+    --search-icon-path: url('../img/searchIconWhite.svg');
+}
